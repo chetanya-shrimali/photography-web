@@ -1,0 +1,10 @@
+ $("#image").hover(function(){
+    $("#image").fadeTo("fast",0.5,function(){
+        $("#hovered").show();
+    });
+    //$("#hovered").show("fade",500);
+},function(){
+     $("#image").fadeTo("fast",1,function(){
+        $("#hovered").hide("fade",100);
+    });
+});
