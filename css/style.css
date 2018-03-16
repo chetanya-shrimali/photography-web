@@ -1,0 +1,104 @@
+
+	body{
+		background-image:url("../images/front.jpg");
+        background-repeat: no-repeat;4
+        background-attachment: fixed;
+        background-size:cover;
+        color: white;
+        font-family: cursive;
+        /*background-size:auto;*/
+        /* need to edit the background*/
+	}
+    ul{
+        color:transparent;
+        float:left;
+        margin-top: 200px;
+       /* cursor: pointer;*/
+    }
+    /*buttons start here*/
+    button{
+        color:white;
+        font-style: normal;
+        font-family: cursive;
+        background-color:transparent;
+        /*border-radius: 5px;*/
+        border: 1px solid transparent ;
+        border-bottom: 1px solid white;
+        float: right;
+        align-content: center;
+        min-width: 80px;
+        min-height: 30px;
+        margin-right: 30px;
+        cursor:pointer;
+        position: relative;
+        overflow: hidden;
+    }
+
+     button .ripple{
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.7);
+        position: absolute;
+        transform: scale(0);
+        animation: ripple 0.6s linear;
+        }
+        @keyframes ripple {
+        to {
+                transform: scale(2.5);
+                opacity: 0;
+            }
+        }
+    /*buttons end here*/
+    /*Main button*/
+    #button_Main{
+        background-color: transparent;
+        color: white;
+        font-size: 24px;
+        font-style: normal;
+        font-family:cursive;
+        border: 1px solid white;
+        float: center;
+        border-radius: 12px;
+        min-height: 50px;
+        min-width: 120px;
+        align-self: center;
+       /* vertical-align: middle;*/
+        float:inherit;
+        margin-top: 125px;
+        cursor:pointer;
+        margin-left: 450px;
+        position: absolute;
+    }
+    
+    /*Social Media Buttons*/
+    #social_button{
+        
+        min-width: 30px;
+        min-height:  30px;
+        border: 1px solid #f5f5f5;
+        border-radius: 50%;
+        color:#f5f5f5;
+        text-align:center;
+        background: black;
+        box-shadow: 0 0 3px gray;
+        font-weight:bold;
+        cursor: pointer;
+        float: left;
+        position: fixed;
+        top: 200px;
+        position: absolute;
+    }
+  
+/*Images start here*/
+    #chetanya{
+        background-color:transparent;
+        color:transparent;
+        background-image: url("../images/chetanyatransparent.png");
+        background-repeat: no-repeat;
+        background-size:contain;
+        height: 300px;
+        width: 300spx;
+        margin-left: 400px;
+        border-radius: 40px
+       /* border: 1px solid white;*/
+        
+    }

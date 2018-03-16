@@ -1,0 +1,187 @@
+
+    #Sliderback{ 
+        background: rgba(179,120,211,0.2);;
+        height:500px;
+        width:940px;
+        top:170px;
+        left:220px;
+        border-radius: 10px;
+        position: absolute;
+        border:3px solid white;
+    }
+    .Slider{
+        width:900px;
+        height: 450px;
+        overflow: hidden;
+        margin-left: 20px;
+        margin-top: 20px;/*auto ALIGNS IT TO CENTER*/
+        box-shadow: 0px 0px 4px white,0px 0px 4px white;
+        display: block;
+        border-radius: 10px;
+        border:2px solid white;
+    }
+    /*shadow class*/
+    .Slider img{
+        width: 900px;
+        height: 450px;
+        display: none;
+        border-radius: 10px;
+    }
+    body{
+        background: #f4f4f4;
+        color: white;
+        background-image: url("../images/backgrounds/aemi%20pics%20644.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+        /*position: fixed;*/
+    }
+    
+        /*color could be changed here*/
+    
+    ul{
+        color:transparent;
+        float:left;
+        margin-top: 200px;
+       /* cursor: pointer;*/
+    }
+    /*buttons start here*/
+    button{
+        color:white;
+        font-style: normal;
+        font-family: cursive;
+        background-color:transparent;
+        /*border-radius: 5px;*/
+        border: 1px solid transparent ;
+        border-bottom: 1px solid white;
+        float: right;
+        align-content: center;
+        min-width: 80px;
+        min-height: 30px;
+        margin-right: 30px;
+        margin-top: 20px;
+        cursor:pointer;
+        position: relative;
+        overflow: hidden;
+    }
+
+     button .ripple{
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.7);
+        position: absolute;
+        transform: scale(0);
+        animation: ripple 0.6s linear;
+        }
+        
+    @keyframes ripple {
+        to {
+            transform: scale(2.5);
+                opacity: 0;
+            }
+        }
+    
+    /*buttons end here*/
+    /*Main button*/
+    /*Social Media Buttons*/
+    #social_button{
+        
+        width:30px;
+        height:30px;
+        border: 2px solid #f5f5f5;
+        border-radius: 50%;
+        color:#f5f5f5;
+        text-align:center;
+        background: transparent;
+        box-shadow: 0 0 3px gray;
+        font-weight:bold;
+        cursor: pointer;
+        float: left;
+        position: fixed;
+        margin-bottom: 202px;
+    }
+  
+    #left_holder{
+        position: absolute;
+        height: 450px;
+        width: 100px;
+        /*border:1px solid darkblue;
+        /*box-shadow:0px 0px 4px darkblue,0px 0px 4px darkblue;*/ 
+        left:120px;
+        top:150px;
+    }
+    #right_holder{
+        position: absolute;
+        height: 450px;
+        width: 100px;
+        /*border:1px solid darkblue;
+        /*box-shadow:0px 0px 4px darkblue,0px 0px 4px darkblue;*/ 
+        right:120px;
+        top:150px;
+    }
+    #left{
+        margin: 210px auto;
+        height: 50px;
+        margin-left: 52px;
+        width: 80px;
+    }
+    #right{
+        margin: 210px auto;
+        height: 50px;
+        width: 80px;
+    
+    }
+    #categories-back{
+        top:770px;
+        /*align-self: center;*/
+        margin-left: 0px;
+        position: absolute;
+        border:1px solid black;
+        /*height:100%;*/
+        width: 1320px;
+        border-radius: 10px;
+        background-color:  #f4f4f4;
+        /*background-image:;*/
+    }
+
+    #image{
+        width:400px;
+        height: 350px;
+        margin-top: 15px;
+        margin-left: 15px;
+        border-radius: 10px;
+        position: relative;
+                /*animation: ripple 0.6s linear;*/
+        }
+    #image-back{
+        background-color: white;
+        width:430px;
+        height: 430px;
+        border-radius: 10px;
+        margin: 50px auto;
+        /*overflow: hidden**/
+        color: white;
+        overflow: hidden;
+        }
+    #hovered{
+        /*border:0.6px solid rgba(0,0,0,0.4);*/
+        /*background-color: rgba(0,0,0,0.4);/*/
+        text-align:center;
+        /*text-align-last: center;*/
+        height: 350px;
+        width: 400px;
+        border-radius: 10px;
+        position: absolute; 
+        color:black;
+        margin-top: -350px;
+        margin-left: 15px;
+        display:none;
+        font-family:Mr De Haviland;
+        font-size: 80px;
+    }
+    #fixed-part{
+        background: #f4f4f4;
+        color: white;
+        background-image: url("../images/backgrounds/1-sunrise.1440.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
