@@ -4,6 +4,7 @@
   - Login/Signup Features.
   - Profile page for users.
   - Optimized `SQL` queries.
+  - Upload photos.
   - `Bootstrap modals` and `Javascript` sliders.
   - Xampp to host the website using `localhost`.
   - `.htaccess` to change routing names.
