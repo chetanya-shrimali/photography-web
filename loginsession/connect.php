@@ -1,0 +1,8 @@
+<?php
+    mysql_connect("localhost","root","");
+    mysql_select_db("webdatabase");
+    
+    if(mysql_connect("localhost","root","") && mysql_select_db("webdatabase")){
+   		 //echo("okk");	
+    }
+?>
